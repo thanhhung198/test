@@ -1,0 +1,12 @@
+package com.laptrinhjavaweb.service;
+
+public class ChildrenC implements ParentA,ParentB {
+	@Override
+	public void hair() {
+		
+	}
+	@Override
+	public void eye() {
+		
+	}
+}

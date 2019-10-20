@@ -1,0 +1,24 @@
+package com.laptrinhjavaweb.service.Impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.laptrinhjavaweb.model.BuildingDTO;
+public class BuildingService {
+	public List<BuildingDTO> findAll()
+	{
+		List<BuildingDTO> buildings = new ArrayList<>();
+		BuildingDTO building1 = new BuildingDTO();
+		building1.setName("Tòa Nhà Bitexco");
+		building1.setNumberOfBasement(10);
+		building1.setDistrict("Quận 1");
+		buildings.add(building1);
+		BuildingDTO building2 = new BuildingDTO();
+		building2.setName("BIDV building");
+		building2.setNumberOfBasement(12);
+		building2.setDistrict("Quận 3");
+		buildings.add(building2);
+		return buildings;
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.laptrinhjavaweb.service;
+
+public class ParentAImpl implements ParentA {
+	@Override
+	public void eye() {
+		System.out.println("Mắt xanh");
+	}
+}

@@ -1,0 +1,5 @@
+package com.laptrinhjavaweb.dao.exception;
+
+public class BuildingCustomException {
+
+}
